@@ -1,7 +1,7 @@
 import React from "react";
 
 const Login = () => {
-  return <></>;
+  return <main className="qyfet"></main>;
 };
 
 export default Login;
