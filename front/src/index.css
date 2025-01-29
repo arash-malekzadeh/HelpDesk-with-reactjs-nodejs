@@ -1,13 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&display=swap");
 
 @import "tailwindcss";
+@font-face {
+  font-family: "BYekanPlus";
+  src: url("./assets/fonts/BYekan+.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 
-  font-family: "Nunito Sans", sans-serif;
+  font-family: "BYekanPlus", sans-serif !important;
 }
 
 .cell {
@@ -128,10 +134,4 @@ body {
   font-family: "BYekanPlus", sans-serif !important;
   direction: rtl !important;
   text-align: right;
-}
-@font-face {
-  font-family: "BYekanPlus";
-  src: url("./assets/fonts/BYekan+.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
 }
